@@ -3,7 +3,6 @@
 
 use strict;
 use Net::SSLeay::Handle;
-use Win32::Console::ANSI;
 use Term::ANSIColor;
 
 if(!defined($ARGV[0] && $ARGV[1])) {
