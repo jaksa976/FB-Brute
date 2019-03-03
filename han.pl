@@ -7,12 +7,12 @@ use Term::ANSIColor;
 
 if(!defined($ARGV[0] && $ARGV[1])) {
 
-print "\033[1;32m+================================================+\n";
-print "\033[1;32m|:~# Cracking Facebook Password                  |\n";
-print "\033[1;32m|:~# Coded   : Farhan Abdurrahman                |\n";
-print "\033[1;32m|:~# Contact : t.me/Fsec7                        |\n";
-print "\033[1;32m|:~# Usage   : perl han.pl username wordlist.txt |\n";
-print "\033[1;32m+================================================+\n";
+print "\033[0;31m+============================================+\n";
+print "\033[0;31m|:~# Cracking Facebook Password              |\n";
+print "\033[0;33m|:~# Coded   : Farhan Abdurrahman            |\n";
+print "\033[0;33m|:~# Contact : t.me/Fsec7                    |\n";
+print "\033[0;32m|:~# Usage   : perl han.pl username pass.txt |\n";
+print "\033[0;32m+============================================+\n";
 print "\n";
 exit; }
 
@@ -22,13 +22,12 @@ my $wordlist = $ARGV[1];
 open (LIST, $wordlist) || die "\n[-] Can't find/open $wordlist\n";
 
 
-print "\033[1;32m+================================================+\n";
-print "\033[1;32m|:~# Cracking Facebook Password                  |\n";
-print "\033[1;32m|:~# Coded   : Farhan Abdurrahman                |\n";
-print "\033[1;32m|:~# Contact : t.me/Fsec7                        |\n";
-print "\033[1;32m|:~# Usage   : perl han.pl username wordlist.txt |\n";
-print "\033[1;32m+================================================+\n";
-print "\033[1;32m[+][+][+][+][+][+][+][+][+][+][+][+][+][+][+][+][+]\n";
+print "\033[0;31m+============================================+\n";
+print "\033[0;31m|:~# Cracking Facebook Password              |\n";
+print "\033[0;33m|:~# Coded   : Farhan Abdurrahman            |\n";
+print "\033[0;33m|:~# Contact : t.me/Fsec7                    |\n";
+print "\033[0;32m|:~# Usage   : perl han.pl username pass.txt |\n";
+print "\033[0;32m+============================================+\n";
 print "\n";
 print "\033[1;34m    +~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~+\n";
 print "\033[1;34m    #    Info : https://www.fsecurity7.com    #\n";
