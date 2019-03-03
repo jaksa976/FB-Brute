@@ -89,7 +89,7 @@ $success = $1;
 }
 if (!defined $success)
 {
-print "\033[1;32m[-] $password\n~/~/~/~#>> \033[1;31mFalse\033[0m \n";
+print "\033[1;32m[-] $password\033[1;36m\n~/~/~/~#>> \033[1;31mFalse\033[0m \n";
 print "\n";
 close SSL;
 }
