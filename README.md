@@ -23,9 +23,9 @@
 <li>Install Active Perl latest version</li>
 <li>Install Git latest version</li>
 <li>open youre CMD</li>
-<li>C:\Users\youre&gt;&nbsp; git clone https://gihub.com/jaksa976/fb-han</li>
-<li>C:\Users\youre&gt;&nbsp; cd fb-han</li>
-<li>C:\Users\youre\fb-han&gt;&nbsp; perl han.pl username pass.txt</li>
+<li>C:\Users\youre&gt;&nbsp; git clone https://gihub.com/jaksa976/FB-Brute</li>
+<li>C:\Users\youre&gt;&nbsp; cd FB-Brute</li>
+<li>C:\Users\youre\FB-Brute&gt;&nbsp; perl han.pl username pass.txt</li>
 </ul>
 </div>
 <br />
