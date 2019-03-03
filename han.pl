@@ -12,7 +12,7 @@ print "\033[0;31m|:~# Cracking Facebook Password              |\n";
 print "\033[0;33m|:~# Coded   : Farhan Abdurrahman            |\n";
 print "\033[0;33m|:~# Contact : t.me/Fsec7                    |\n";
 print "\033[0;32m|:~# Usage   : perl han.pl username pass.txt |\n";
-print "\033[0;32m+============================================+\n";
+print "\033[0;32m+============================================+\033[0m\n";
 print "\n";
 exit; }
 
